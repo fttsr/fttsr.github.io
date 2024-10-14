@@ -12,17 +12,30 @@
     font-size: 32px;
     font-family: Montserrat;
     top: 20px;
-    margin-left: 40%;
+    text-align: center;
     color:crimson
 }
 
 #title {
-    position: absolute;
+    position:fixed;
     font-size: 20px;
     font-family: Montserrat;
-    margin-top: 25%;
-    margin-left: 0%;
-    color:crimson 
+    top: 50%;
+    bottom: 50%;
+    left: 5%;
+    right: 5%;
+    max-width: 100;
+    color:crimson;
+}
+
+
+#score {
+    position: absolute;
+    font-size: 32px;
+    font-family: Montserrat;
+    top: 20px;
+    margin-left: 40%;
+    color:crimson
 }
 
 /*# sourceMappingURL=main.css.map*/
