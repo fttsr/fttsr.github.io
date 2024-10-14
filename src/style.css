@@ -3,14 +3,15 @@
     padding: 0;
 }
 
-html,
-body {
+.html, body {
     overflow: hidden;
 }
 
-.canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    outline: none;
+#score {
+    position: absolute;
+    font-size: 32px;
+    font-family: Montserrat;
+    top: 20px;
+    margin-left: 40%;
+    color:crimson
 }
